@@ -1,0 +1,72 @@
+.shopcart{
+    height: 630px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shopcart h3{
+    font-size: 24px;
+    color: #ff6700;
+    text-indent: 20px;
+    font-weight: 500;
+}
+.shopcart table{
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+.shopcart table thead tr th{
+    height: 60px;
+    background-color: #f1f1f1;
+}
+.shopcart .totalPrice{
+    height: 60px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+   
+}
+.shopcart .totalPrice span{
+    margin-right: 140px;
+    font-size: 20px;
+    color: gray;
+}
+
+.shopcart .totalPrice .active{
+    background-color: #ff6700;
+    color:#fff;
+    float: right;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    margin-top: -30px;
+    
+}
+
+.shopcart .totalPrice .total{
+    font-size: 22px;
+}
+
+.shopcart .totalPrice .subprice{
+    font-size: 22px;
+    color: #ff6700;
+}
+
+.shopcart .totalPrice  span:first-of-type{
+    margin-left: 100px;
+}
+
+.shopcart .totalPrice input{
+    margin-left: 10px;
+}
+.shopcart .totalPrice button{
+    margin-left: 150px;
+}
+.shopcart table button{
+    width: 20px;
+    height: 20px;
+}
+.shopcart table input{
+    width: 50px;
+}
